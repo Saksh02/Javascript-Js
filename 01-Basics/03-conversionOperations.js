@@ -23,6 +23,31 @@ let numberIsFine = Number(identifyTheNumber)
 // console.log(typeof numberIsFine);
 
 let bool = ""
-let convertIt = Boolean(bool)
-console.log(convertIt);
-console.log(typeof convertIt);
+// let convertIt = Boolean(bool)
+// console.log(convertIt);
+// console.log(typeof convertIt);
+
+let value = 69
+
+let negValue = -value
+// console.log(negValue);
+
+// let salute = "Namaste"
+// let nam = " Saksham"
+// let fullSalute = salute + nam
+// console.log(fullSalute);
+
+// console.log("1" + 2);   
+// console.log(1 + "2"); 
+// console.log("1" + "2");
+// console.log("1" + 2 + 4);
+// console.log(1 + 2 + "2");
+
+let gameCounter = 1000;
+gameCounter++;
+console.log(gameCounter);
+
+
+
+
+
