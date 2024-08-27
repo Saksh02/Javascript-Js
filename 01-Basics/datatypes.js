@@ -32,3 +32,30 @@ const myFunction = function(){
 }
 
 console.log(typeof hugeNumber);
+
+// Memory
+
+// Stack (Primitive type) and Heap (Reference Type)
+
+// Stack example - got copy 
+
+let cityName = "Gotham"
+let nameOfTheCity = cityName
+
+nameOfTheCity = "New York"
+
+console.log(cityName);
+console.log(nameOfTheCity);
+
+// Heap example - got same reference
+
+let identity1 = {
+    user: "Bruce",
+    upi: "bruce@ok"
+}
+let identity2 = identity1
+
+identity2.user = "Buddha"
+
+console.log(identity1.user);
+console.log(identity2.user);
